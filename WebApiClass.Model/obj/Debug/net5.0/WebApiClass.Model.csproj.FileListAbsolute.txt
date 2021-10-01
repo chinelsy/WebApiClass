@@ -1,0 +1,15 @@
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\bin\Debug\net5.0\WebApiClass.Model.deps.json
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\bin\Debug\net5.0\WebApiClass.Model.runtimeconfig.json
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\bin\Debug\net5.0\WebApiClass.Model.runtimeconfig.dev.json
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\bin\Debug\net5.0\WebApiClass.Model.dll
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\bin\Debug\net5.0\ref\WebApiClass.Model.dll
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\bin\Debug\net5.0\WebApiClass.Model.pdb
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.csproj.AssemblyReference.cache
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.AssemblyInfoInputs.cache
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.AssemblyInfo.cs
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.csproj.CoreCompileInputs.cache
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.dll
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\ref\WebApiClass.Model.dll
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.pdb
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.genruntimeconfig.cache
