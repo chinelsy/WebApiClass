@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using WebApiClass.Model.Entities;
 
-namespace WebApiClass.Services.Interfaces
+namespace WebApiClass.Service.Interfaces
 {
     public interface IAccountService
     {

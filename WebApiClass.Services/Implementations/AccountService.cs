@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApiClass.Model.Entities;
-using WebApiClass.Services.Interfaces;
+using WebApiClass.Service.Interfaces;
 
-namespace WebApiClass.Services.Implementations
+namespace WebApiClass.Service.Implementations
 {
     public class AccountService : IAccountService
     {

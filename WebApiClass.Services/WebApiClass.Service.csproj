@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebApiClass.Data\WebApiClass.Data.csproj" />
     <ProjectReference Include="..\WebApiClass.Model\WebApiClass.Model.csproj" />
   </ItemGroup>
 

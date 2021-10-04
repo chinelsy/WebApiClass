@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebApiClass.Model.Entities;
 
-namespace WebApiClass.Services.Interfaces
+namespace WebApiClass.Service.Interfaces
 {
     public interface ICustomerService
     {

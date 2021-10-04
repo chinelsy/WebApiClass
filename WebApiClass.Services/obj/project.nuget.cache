@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DgUodfImHcuFdEN9r2bNfWfW3kuxR7G7vlK2L26iRdQMcIUH8VnitiLE/5iBgBEiQ2txchPe6BG6w7HymRuW8g==",
+  "dgSpecHash": "AvwnBsGmxgjYefznH3x+xlo/noax/dR9JMmWH1TTpFjsogJk40FkMVvdcjdqqzMyz1pJnos2wGp4mi7uMHvcpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Services\\WebApiClass.Services.csproj",
+  "projectFilePath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Services\\WebApiClass.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nzehn\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nzehn\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -37,7 +37,9 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.10",
           "Swashbuckle.AspNetCore": "5.6.3",
+          "WebApiClass.Data": "1.0.0",
           "WebApiClass.Model": "1.0.0",
+          "WebApiClass.Service": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1405,6 +1407,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "WebApiClass.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10"
+        },
+        "runtime": {
+          "WebApiClass.Data.dll": {}
+        },
+        "compile": {
+          "WebApiClass.Data.dll": {}
+        }
+      },
       "WebApiClass.Model/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.10",
@@ -1415,6 +1428,19 @@
         },
         "compile": {
           "WebApiClass.Model.dll": {}
+        }
+      },
+      "WebApiClass.Service/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "WebApiClass.Data": "1.0.0",
+          "WebApiClass.Model": "1.0.0"
+        },
+        "runtime": {
+          "WebApiClass.Service.dll": {}
+        },
+        "compile": {
+          "WebApiClass.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3846,7 +3872,17 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "WebApiClass.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "WebApiClass.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApiClass.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

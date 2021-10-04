@@ -1614,6 +1614,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "WebApiClass.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10"
+        },
+        "compile": {
+          "bin/placeholder/WebApiClass.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApiClass.Data.dll": {}
+        }
+      },
       "WebApiClass.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1626,6 +1639,21 @@
         },
         "runtime": {
           "bin/placeholder/WebApiClass.Model.dll": {}
+        }
+      },
+      "WebApiClass.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "WebApiClass.Data": "1.0.0",
+          "WebApiClass.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebApiClass.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApiClass.Service.dll": {}
         }
       }
     }
@@ -6050,10 +6078,20 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "WebApiClass.Data/1.0.0": {
+      "type": "project",
+      "path": "../WebApiClass.Data/WebApiClass.Data.csproj",
+      "msbuildProject": "../WebApiClass.Data/WebApiClass.Data.csproj"
+    },
     "WebApiClass.Model/1.0.0": {
       "type": "project",
       "path": "../WebApiClass.Model/WebApiClass.Model.csproj",
       "msbuildProject": "../WebApiClass.Model/WebApiClass.Model.csproj"
+    },
+    "WebApiClass.Service/1.0.0": {
+      "type": "project",
+      "path": "../WebApiClass.Services/WebApiClass.Service.csproj",
+      "msbuildProject": "../WebApiClass.Services/WebApiClass.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6062,7 +6100,9 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
       "Swashbuckle.AspNetCore >= 5.6.3",
-      "WebApiClass.Model >= 1.0.0"
+      "WebApiClass.Data >= 1.0.0",
+      "WebApiClass.Model >= 1.0.0",
+      "WebApiClass.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6092,8 +6132,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Data\\WebApiClass.Data.csproj": {
+              "projectPath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Data\\WebApiClass.Data.csproj"
+            },
             "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Model\\WebApiClass.Model.csproj": {
               "projectPath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Model\\WebApiClass.Model.csproj"
+            },
+            "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Services\\WebApiClass.Service.csproj": {
+              "projectPath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Services\\WebApiClass.Service.csproj"
             }
           }
         }

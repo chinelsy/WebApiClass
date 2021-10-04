@@ -15,12 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Extensions\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\WebApiClass.Data\WebApiClass.Data.csproj" />
     <ProjectReference Include="..\WebApiClass.Model\WebApiClass.Model.csproj" />
+    <ProjectReference Include="..\WebApiClass.Services\WebApiClass.Service.csproj" />
   </ItemGroup>
 
 </Project>
