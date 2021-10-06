@@ -12,3 +12,4 @@ C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug
 C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\ref\WebApiClass.Model.dll
 C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.pdb
 C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.genruntimeconfig.cache
+C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Model\obj\Debug\net5.0\WebApiClass.Model.csproj.AssemblyReference.cache

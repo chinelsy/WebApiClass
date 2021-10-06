@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "l9kusEQOmDy+lR53BDjHze7BzaNKU5wnL8zhRnVnE7HRcL14PexjSwhzQfF+dZ+JgiS9cBbxXECoEvwMZmecDg==",
+  "dgSpecHash": "n4s4H9Euj+yxTsftasIPB/sf6I/YMB+6bz2tEuk3HhAjXAJB5ouzfiUPXgT81n5sTBynVrzK8rdslQMJHM2EWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Data\\WebApiClass.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nzehn\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\nzehn\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\nzehn\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\nzehn\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\nzehn\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\nzehn\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
@@ -17,7 +20,8 @@
     "C:\\Users\\nzehn\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\nzehn\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\nzehn\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\nzehn\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\nzehn\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\nzehn\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

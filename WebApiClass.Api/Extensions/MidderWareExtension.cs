@@ -14,6 +14,7 @@ namespace WebApiClass.Api.Extensions
             services.AddTransient<IUnitofWork, UnitofWork<WebApiContext>>();
             services.AddTransient<IAccountService, AccountService>();
             services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IServiceFactory, ServiceFactory>();
 
             return services;
         }

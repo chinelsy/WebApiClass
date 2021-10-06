@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using WebApiClass.Model.Dtos;
 using WebApiClass.Model.Entities;
 
 namespace WebApiClass.Service.Interfaces
@@ -10,6 +11,7 @@ namespace WebApiClass.Service.Interfaces
         Task<decimal> GetAccountBalance(string accountNumber);
         Task<bool> Deposit(string accountNumber, decimal amount);
         Task<decimal> Withdraw(string accountNumber, decimal amount);
+        Task<ViewAccountDto> GetByAccountNumber(string accountNumber);
 
     }
 }

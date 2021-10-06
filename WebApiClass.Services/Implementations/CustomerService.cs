@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApiClass.Data.Interfaces;
+using WebApiClass.Model.Dtos;
 using WebApiClass.Model.Entities;
 using WebApiClass.Service.Interfaces;
 
@@ -12,16 +13,22 @@ namespace WebApiClass.Service.Implementations
     public class CustomerService : ICustomerService
     {
         private readonly IUnitofWork _unitofWork;
+        private readonly IServiceFactory _serviceFactory;
         private readonly IRepository<Customer> _customerRepo;
+        
 
-        public CustomerService(IUnitofWork unitofWork)
+        public CustomerService(IUnitofWork unitofWork, IServiceFactory serviceFactory)
         {
             _unitofWork = unitofWork;
+            _serviceFactory = serviceFactory;
             _customerRepo = unitofWork.GetRepository<Customer>();
         }
-        public async Task<Customer> GetCustomerByAccountNumber(string accountNumber)
+        public async Task<ViewAccountDto> GetCustomerByAccountNumber(string accountNumber)
         {
-            throw new NotImplementedException();
+            IAccountService accountService = _serviceFactory.GetServices<IAccountService>();
+            var accountDetail = await  accountService.GetByAccountNumber(accountNumber);
+
+            return accountDetail;
         }
 
         public async Task<IEnumerable<Customer>> GetCustomersAsync()

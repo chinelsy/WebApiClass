@@ -27,5 +27,11 @@ namespace WebApiClass.Api.Controllers
             return Ok(await _customerService.GetCustomersAsync());
         }
 
+        [HttpGet("customerAccountDetail")]
+        public async Task<IActionResult> AccountDetail(string accountNumber)
+        {
+            return Ok(await _customerService.GetCustomerByAccountNumber(accountNumber));
+        }
+
     }
 }
