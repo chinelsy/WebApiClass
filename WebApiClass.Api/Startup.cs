@@ -8,6 +8,7 @@ using Microsoft.OpenApi.Models;
 using WebApiClass.Api.Configurations;
 using WebApiClass.Api.Extensions;
 using WebApiClass.Model.Entities;
+using WebApiClass.Service.Interfaces;
 
 namespace WebApiClass.Api
 {

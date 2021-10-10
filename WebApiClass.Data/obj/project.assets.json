@@ -725,19 +725,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nzehn\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Data\\WebApiClass.Data.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\WebApi\\webapiclass\\WebApiClass.Data\\WebApiClass.Data.csproj",
       "projectName": "WebApiClass.Data",
-      "projectPath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Data\\WebApiClass.Data.csproj",
-      "packagesPath": "C:\\Users\\nzehn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nzehn\\development\\dotnet\\Bezao\\WebApiClass1\\WebApiClass.Data\\obj\\",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\WebApi\\webapiclass\\WebApiClass.Data\\WebApiClass.Data.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\WebApi\\webapiclass\\WebApiClass.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nzehn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

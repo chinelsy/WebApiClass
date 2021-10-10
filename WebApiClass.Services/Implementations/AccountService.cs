@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+
 using System.Threading.Tasks;
 using WebApiClass.Data.Interfaces;
 using WebApiClass.Model.Dtos;
@@ -25,17 +25,36 @@ namespace WebApiClass.Service.Implementations
 
         public async Task<bool> Deposit(string accountNumber, decimal amount)
         {
-            throw new NotImplementedException();
-        }
+            var account = _accountRepo.GetSingleByCondition(x => x.Number == accountNumber);
+            if (account == null) 
+            {
+                throw new Exception("Account Not Found");
+            }
+            else
+            {
+                account.Balance += amount;
+                await _unitofWork.SaveChangesAsync();
+                return true;
+            }
+           
+        }// account.Balance = account.Balance + amount;
 
         public async Task<decimal> GetAccountBalance(string accountNumber)
         {
-            throw new NotImplementedException();
-        }
+            var account = await Task.FromResult(_accountRepo.GetSingleByCondition(a => a.Number == accountNumber));
+            if (account == null)
+            {
+                return  0;
+            }
+            else
+            {
+                return account.Balance;
+            }
+        } 
 
-        public async Task<IEnumerable<Account>> GetAccounts()
+        public async Task<IEnumerable<Account>> GetAccounts()//somethig is missing
         {
-            throw new NotImplementedException();
+            return await _accountRepo.GetAllAsync(); 
         }
 
         public async Task<ViewAccountDto> GetByAccountNumber(string accountNumber)
@@ -46,7 +65,23 @@ namespace WebApiClass.Service.Implementations
 
         public async Task<decimal> Withdraw(string accountNumber, decimal amount)
         {
-            throw new NotImplementedException();
+            var account = _accountRepo.GetSingleByCondition(a => a.Number == accountNumber);
+            if (account == null)
+            {
+                throw new Exception("account not found");
+            }
+            if(amount > account.Balance)
+            {
+                return -1; 
+            }
+            else
+            {
+                account.Balance -= amount;
+
+                await _unitofWork.SaveChangesAsync();
+                return amount;
+            }
+            
         }
     }
 }

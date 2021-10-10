@@ -9,7 +9,7 @@ using WebApiClass.Service.Interfaces;
 
 namespace WebApiClass.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/customers")]
     [ApiController]
     public class CustomerController : ControllerBase
     {
