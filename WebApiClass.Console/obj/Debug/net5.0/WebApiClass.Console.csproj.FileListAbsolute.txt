@@ -1,5 +1,0 @@
-C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Console\obj\Debug\net5.0\WebApiClass.Console.csproj.AssemblyReference.cache
-C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Console\obj\Debug\net5.0\WebApiClass.Console.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Console\obj\Debug\net5.0\WebApiClass.Console.AssemblyInfoInputs.cache
-C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Console\obj\Debug\net5.0\WebApiClass.Console.AssemblyInfo.cs
-C:\Users\nzehn\development\dotnet\Bezao\WebApiClass1\WebApiClass.Console\obj\Debug\net5.0\WebApiClass.Console.csproj.CoreCompileInputs.cache

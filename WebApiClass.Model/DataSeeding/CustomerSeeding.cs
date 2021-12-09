@@ -41,8 +41,7 @@ namespace WebApiClass.Model.DataSeeding
                      Phone = "08136777722",
                      Address = "United State Of Olo",
                      AccountId = new Guid("87cdbca8-924d-43c0-e8de-024705846f7b")
-                 }
-                 );
+                 });
         }
     }
 }
